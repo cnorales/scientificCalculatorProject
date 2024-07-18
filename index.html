@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Scientifc Calculator</title>
+  </head>
+  <body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <!-- <div id="keysTop">
+          <button onclick="appendToDisplay('')" class="operator-btn">Rad</button>
+          <button onclick="appendToDisplay('')" class="operator-btn">Deg</button>
+          <button onclick="appendToDisplay('!')" class="operator-btn">x!</button>
+          <button onclick="appendToDisplay('\(')" class="operator-btn">(</button>
+          <button onclick="appendToDisplay('\)')" class="operator-btn">)</button>
+          <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+          <button onclick="clearDisplay()" class="operator-btn">C</button>
+        </div> -->
+        <div id="keys">
+          <button onclick="appendToDisplay('')" class="operator-btn">Rad</button>
+          <button onclick="appendToDisplay('')" class="operator-btn">Deg</button>
+          <button onclick="appendToDisplay('!')" class="operator-btn">x!</button>
+          <button onclick="appendToDisplay('\(')" class="operator-btn">(</button>
+          <button onclick="appendToDisplay('\)')" class="operator-btn">)</button>
+          <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+          <button onclick="clearDisplay()" class="operator-btn">C</button>
+          <button onclick="appendToDisplay('')" class="operator-btn">Inv</button>
+          <button onclick="appendToDisplay('sin(')" class="operator-btn">sin</button>
+          <button onclick="appendToDisplay('ln(')" class="operator-btn">ln</button>
+          <button onclick="appendToDisplay('7')" style="font-size: 3rem;">7</button>
+          <button onclick="appendToDisplay('8')" style="font-size: 3rem;">8</button>
+          <button onclick="appendToDisplay('9')" style="font-size: 3rem;">9</button>
+          <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+          <button onclick="appendToDisplay('π')" class="operator-btn">π</button>
+          <button onclick="appendToDisplay('cos(')" class="operator-btn">cos</button>
+          <button onclick="appendToDisplay('log(')" class="operator-btn">log</button>
+          <button onclick="appendToDisplay('4')" style="font-size: 3rem;">4</button>
+          <button onclick="appendToDisplay('5')" style="font-size: 3rem;">5</button>
+          <button onclick="appendToDisplay('6')" style="font-size: 3rem;">6</button>
+          <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+          <button onclick="appendToDisplay('e')" class="operator-btn">e</button>
+          <button onclick="appendToDisplay('tan(')" class="operator-btn">tan</button>
+          <button onclick="appendToDisplay('√(')" class="operator-btn">√</button>
+          <button onclick="appendToDisplay('1')" style="font-size: 3rem;">1</button>
+          <button onclick="appendToDisplay('2')" style="font-size: 3rem;">2</button>
+          <button onclick="appendToDisplay('3')" style="font-size: 3rem;">3</button>
+          <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+          <button onclick="appendToDisplay('Ans')" class="operator-btn">Ans</button>
+          <button onclick="appendToDisplay('E')" class="operator-btn">EXP</button>
+          <button onclick="appendToDisplay('^')" class="operator-btn">xⁿ</button>
+          <button onclick="appendToDisplay('0')" style="font-size: 3rem;">0</button>
+          <button onclick="appendToDisplay('.')" style="font-size: 3rem;">.</button>
+          <button onclick="calculate()" style="font-size: 3rem;">=</button>
+          <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
